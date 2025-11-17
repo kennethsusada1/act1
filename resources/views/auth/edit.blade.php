@@ -1,5 +1,5 @@
 <x-layout>
-    <h1 class="text-primary mb-4">Edit User Info</h1>
+    <h1 class="text-primary mb-4">Edit or Update User Info</h1>
 
     <form action="{{ route('edit', $user->id) }}" method="POST" class="w-50">
         @csrf
